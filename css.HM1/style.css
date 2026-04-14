@@ -3,8 +3,9 @@ body{
   font-size: 150%;
 }
 nav{
-  background-color:blue ;
+  background-color:#dadae9 ;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 li{
   display: inline-block;
@@ -13,6 +14,7 @@ li{
 header{
   text-align: center;
   background-color: ghostwhite;
+  
 }
 h1{
   background-color: rgb(67 118 118);
@@ -32,4 +34,7 @@ footer{
 }
 p{
   line-height: normal;
+}
+UL{
+  color: beige;
 }
