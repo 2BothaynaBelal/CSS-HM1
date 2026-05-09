@@ -5,21 +5,37 @@ body{
 nav{
   background-color:#dadae9 ;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+  display: inline-block;
+  width: 80%;
+  height: 40%;
+  
+  
+}
+header img{
+  width: 8%;
+  top: 0%;
+  position: absolute;
+
 }
 li{
-  display: inline-block;
-  width: 400px;
+ display: inline-block;
+ width: 30%;
+ 
+ 
+ 
 }
 header{
   text-align: center;
   background-color: ghostwhite;
+  
+  
   
 }
 h1{
   background-color: rgb(67 118 118);
   color: beige;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 main{
   text-align: justify;
@@ -28,6 +44,7 @@ main{
 }
 a{
   color:rgb(88, 46, 6);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 footer{
   background-color:#8dd5d5 ;
@@ -36,5 +53,31 @@ p{
   line-height: normal;
 }
 UL{
-  color: beige;
+  color: rgb(37, 37, 35);
+list-style-type: none;
+
+
+}
+.neighbour_grid {
+ display: grid;
+ grid-template-columns: 40% 40%;
+ justify-content:space-around;
+ align-items:normal;
+ row-gap: 0.1%;
+ 
+}
+.neighbour_grid img{
+  width: 100%;
+  height: 90%
+}
+.park_flex{
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 10%;
+}
+.current{
+  background-color: rgb(197, 137, 137);
+  text-transform: uppercase;
 }
